@@ -1,0 +1,16 @@
+#include<stdio.h>
+main()
+{
+	int a,b,c;
+	scanf(" %d",&a);
+	scanf("%d",&b);
+	printf(" First Variable is %d \n",a);
+	printf(" Second Variable is %d \n",b);
+	//Swapping the numbers with using third variable
+	c=a;
+	a=b;
+	b=c;
+	printf(" Aft swapping first variable is %d \n",a);
+	printf("Aft swapping second variable is %d",b);
+	return 0;
+	}
